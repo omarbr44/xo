@@ -1,0 +1,30 @@
+#container{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
+    max-width: 50%;
+    left: 25%;
+    top: 15%;
+    grid-template-rows: repeat(3,minmax(150px,auto));  
+
+
+}
+#container div{
+    padding: 25px;
+    background:#7c8589;}
+  
+    .win{
+        position: absolute;
+        width: 100%;
+        /* text-align: center; */
+        opacity: 0.7;
+        display: grid;
+        font-size: 100px;
+        height: 100%;
+        place-items: center;
+        background: antiquewhite;
+        /* z-index: 1; */
+        left: 0;
+        top: 0;
+    }
